@@ -1189,3 +1189,13 @@ section .container {
 .credits a:hover {
   color: #fff;
 }
+
+.tools-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.website-tools-container,
+.website-plugins-container {
+  display: grid;
+}
