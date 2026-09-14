@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git config *)",
+      "Read(//home/jon/.ssh/**)",
+      "Bash(ssh -T git@github.com)",
+      "Bash(ssh -i ~/.ssh/id_rsa_dev3 -T git@github.com)",
+      "Bash(ssh -i ~/.ssh/rsa_home -T git@github.com)",
+      "Bash(ssh -i ~/.ssh/rsa_kevin -T git@github.com)"
+    ]
+  }
+}
